@@ -21,3 +21,4 @@ Other:
 Resources I'm looking at:
     - API Docs that come with the SDK
     - http://www.sencha.com/learn/touch/
+    - https://github.com/senchalearn/teagrams
