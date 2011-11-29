@@ -1,4 +1,5 @@
 new Ext.Application({
+	name: 'HelloWorld',
     launch: function() {
         new Ext.Panel({
             fullscreen: true,
@@ -7,5 +8,6 @@ new Ext.Application({
             styleHtmlContent: true,
             html: '<h2>Hello World!</h2>I did it!'
         });
-    }
+    },
+    useLoadMask: true
 });
