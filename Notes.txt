@@ -1,0 +1,11 @@
+Things I've Read, Tested, and Understand:
+    - Ext.Application and options
+    - load mask
+    - profiles
+    
+
+Things I've read, but want to test:
+    - Events and listeners (on, un, etc.)
+
+Things I've Read about, but am still unsure about:
+    - Event "bubbling" 
