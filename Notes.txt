@@ -9,3 +9,10 @@ Things I've read, but want to test:
 
 Things I've Read about, but am still unsure about:
     - Event "bubbling" 
+
+
+
+Other:
+    - The LoadMask is a nice feature of SenchaTouch, but Safari already has the ability to use a startup image:
+            <link rel="apple-touch-startup-image" href="/startup.png">
+        However using the SenchaTouch way, you are guaranteed it to work on other platforms and you can customize the timing of it.
