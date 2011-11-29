@@ -16,3 +16,8 @@ Other:
     - The LoadMask is a nice feature of SenchaTouch, but Safari already has the ability to use a startup image:
             <link rel="apple-touch-startup-image" href="/startup.png">
         However using the SenchaTouch way, you are guaranteed it to work on other platforms and you can customize the timing of it.
+
+
+Resources I'm looking at:
+    - API Docs that come with the SDK
+    - http://www.sencha.com/learn/touch/
