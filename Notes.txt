@@ -22,3 +22,11 @@ Resources I'm looking at:
     - API Docs that come with the SDK
     - http://www.sencha.com/learn/touch/
     - https://github.com/senchalearn/teagrams
+
+
+Sencha Touch Desired Improvements:
+    - Abstract documentation and introduction.
+        The vast majority of Sencha Touch documentation is made up of either tutorials or reference docs. Neither one of these are very useful when just trying to get introduced to the framework. Apple has great introductory documentation for iOS, describing the architecture, design pattern standards, coding pattern standards, and other standards. Sencha Touch has a ton of tutorials, that each do things a little differently, which makes the framework feel very hacked together.
+    
+    - More built-in functionality. 
+        iOS is great at providing a ton of built-in functionality without the developer having to very much. Sencha Touch does have a lot of built in, but they're not on par with iOS yet. The main one I've run into is that CRUD isn't as baked in (like in lists).
