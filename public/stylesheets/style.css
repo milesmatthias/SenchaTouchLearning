@@ -1,15 +1,24 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color:black;
+    padding: 50px;
+    background-color:black;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
 }
 
 div.loading-mask{
 	margin-top:30%;
 	color:white;
 	text-align:center;
+}
+
+div.x-list-item{
+    color: black;
+    padding: 0.5em 0.8em;
+    min-height: 2.6em;
+    display: -webkit-box;
+    display: box;
+    border-top: 1px solid #D1D1D1;
 }
