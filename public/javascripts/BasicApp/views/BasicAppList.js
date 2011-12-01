@@ -17,8 +17,8 @@ basicapp.views.BasicAppList = Ext.extend(Ext.Panel, {
             ui: 'action',
             scope: this,
             handler: function(btn){
-                var list = this.viewport.getComponent('lstTU');
-                var btnDelete = this.viewport.getDockedComponent('btmToolbar').getComponent('btnDelete');
+                var list = basicapp.views.basicAppList.getComponent('lstTU');
+                var btnDelete = basicapp.views.basicAppList.getDockedComponent('btmToolbar').getComponent('btnDelete');
                 if(btn.getText() == 'Edit'){
                     list.edit();
                     btnDelete.show('pop');
@@ -54,7 +54,7 @@ basicapp.views.BasicAppList = Ext.extend(Ext.Panel, {
             hidden: true,
             disabled: true,
             handler: function(){
-                var list = this.viewport.getComponent('lstTU');
+                var list = basicapp.views.basicAppList.getComponent('lstTU');
                 list.deleteSelected();
             }
         }]
@@ -67,6 +67,9 @@ basicapp.views.BasicAppList = Ext.extend(Ext.Panel, {
         store: new Ext.data.Store({
             id: 'store_tu',
             model: 'basicapp.models.TwitterUser',
+            getGroupString: function(record){
+                    return record.get('username')[0];
+            },
             autoLoad: true,
             proxy: {
                 type: 'scripttag',
@@ -85,7 +88,7 @@ basicapp.views.BasicAppList = Ext.extend(Ext.Panel, {
         }),
         listeners: {
             deleteSectionChange: function(list, tot){
-                var btnDelete = this.viewport.getDockedComponent('btmToolbar').getComponent('btnDelete');
+                var btnDelete = basicapp.views.basicAppList.getDockedComponent('btmToolbar').getComponent('btnDelete');
                 if(tot!=0){
                     btnDelete.setText(Ext.util.Format.format('Delete ({0})', tot));
                     btnDelete.enable();
