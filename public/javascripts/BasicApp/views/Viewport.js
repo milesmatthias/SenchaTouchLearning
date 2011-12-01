@@ -1,6 +1,6 @@
 // This is the "main" wrapper viewport
 basicapp.views.Viewport = Ext.extend(Ext.Panel, {
-    fullscreen:true,
+    fullscreen: true,
     layout: 'fit',
     initComponent: function(){
         basicapp.views.basicAppList = new basicapp.views.BasicAppList();

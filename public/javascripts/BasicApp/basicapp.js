@@ -1,6 +1,6 @@
 Ext.regApplication({
     name: 'basicapp',
-    useLoadMask: true,
+    useLoadMask: false,
     profiles: {
         phone: function() {
             return Ext.is.Phone;

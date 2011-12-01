@@ -1,5 +1,5 @@
 var btnAlert = function(btn){
-    alert(btn.getText()+ " was pressed!");
+    alert("Add was pressed!");
 }
 
 // This defines the main layout
